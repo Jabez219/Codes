@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int Num,P=0,rem,Num1;
+    scanf("%d",&Num1);
+    Num=Num1;
+    while(Num1>0)
+    {
+        rem=Num1%10;
+        P=(P*10)+rem;
+        Num1=Num1/10;
+    }
+    if(Num==P)
+    {
+        printf("Same");
+    }
+    else
+    {
+        printf("Not Same");
+    }
+        return 0;
+}
+Sample Input:
+5555
+Sample Output:
+Same
