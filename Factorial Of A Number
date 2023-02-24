@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int A,i,factorial=1;
+    scanf("%d",&A);
+    for(i=1;i<=A;i++)
+    {
+        factorial=factorial*i;
+    }
+        printf("%d",factorial);
+        return 0;
+}
+Sample Input:
+5
+Sample Output:
+120
